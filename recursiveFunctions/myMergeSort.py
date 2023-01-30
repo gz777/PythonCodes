@@ -31,4 +31,4 @@ def mySorted(left: List[int], right: List[int], i: int, j: int, mysorted: List[i
 if __name__ == '__main__':
     mylist = [1, 11, 9, 4, 3, 6, 8, 2]
     alist = myMergeSort(mylist)
-    print(f'Here you go 1: {alist}')
+    print(f'Here you go: {alist}')
