@@ -1,5 +1,5 @@
 '''
-Code description: A recursive implementation of Selection Sort.
+Code description: A mixed implementation of recursion and iteration ofSelection Sort.
 Author: gz
 Date: 1/23/23
 '''
