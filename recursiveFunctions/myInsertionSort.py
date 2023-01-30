@@ -3,8 +3,9 @@ Code description: A recursive implementation of Selection Sort.
 Author: gz
 Date: 1/23/23
 '''
+from typing import List
 
-def myInsertionSort(mylist: int, elemIdx: int, sorted: int) -> int:
+def myInsertionSort(mylist: List[int], elemIdx: int, sorted: List[int]) -> List[int]:
     if elemIdx > 0: # We've already compared the first element of the list
         iPos = 0
         for idx, x in enumerate(sorted):

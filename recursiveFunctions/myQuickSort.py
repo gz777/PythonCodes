@@ -6,7 +6,7 @@ Date: 1/23/23
 
 from typing import List, Any
 
-def myQuickSort(mylist: int) -> int:
+def myQuickSort(mylist: List[int]) -> List[int]:
     pivot = mylist[0]
     left: list[Any] = [x for x in mylist if x < pivot]
     right: list[Any] = [y for y in mylist if y > pivot]
